@@ -1,0 +1,27 @@
+---
+import { Icon } from "astro-icon/components";
+import ContentSection from "~/components/content-section.astro";
+---
+
+<ContentSection title="Ready for launch?" id="intro">
+    <Icon slot="eyebrow" name="logomark" class="size-32" />
+    <Fragment slot="lead">
+      Join us for a journey through the 
+      <span class="text-primary">digital cosmos</span>. Discover 
+      <span class="text-primary">efficient</span> 
+      optimization and <span class="text-primary">comprehensive</span> analytics. Ready to elevate your SEO? Contact us today.
+      
+        
+    </Fragment>
+    <div class="flex justify-center">
+      <a
+        href="https://astro.new/"
+        class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
+      >
+        <Icon name="mdi:rocket" class="size-8" />
+        <span>Try it out</span>
+      </a>
+    </div>    
+    
+  </ContentSection>
+  
